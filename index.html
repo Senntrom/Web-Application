@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html lang>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chimptopia</title>
+    <title>Chimptopia - To-Do List</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <img src="assets/Main_Icon.png" alt="Main Icon" class="main-icon">
+        <h1>Chimptopia To-Do List</h1>
+    </header>
+    <main>
+        <div class="todo-container">
+            <input type="text" id="todo-input" placeholder="Enter a task..." />
+            <button id="add-btn">Add</button>
+            <ul id="todo-list"></ul>
+        </div>
+    </main>
+    <button id="dino-game-btn">Play Dino Game</button>
+    <script src="script.js"></script>
 </body>
 </html>
